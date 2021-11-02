@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../images/R.jpg);
+    background-position: center center;
+    background-size: cover;
+    font-family: "B nazanin";
+}
+.sign-up{
+    background-color: azure;
+    padding: 50px 50px;
+    width: 18%;
+    border-radius: 44px;
+    margin-left:38%;
+    margin-top: 10%;
+}
+.sign-up h1{
+    margin-bottom: 30px;
+    margin-left: 62px;
+}
+.ch{
+    margin-top: -34px;
+    margin-left: 196px;
+}
+input[type="checkbox"]{
+  margin-left: 250px;
+}
+input[type="text"],[type="email"],[type="password"],[type="checkbox"]{
+    margin-bottom: 20px;
+    direction: rtl;
+    
+}
+input[type="text"],[type="email"],[type="password"]{
+    background-color: azure;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 2px solid #00004b;
+    padding:10px 12px ;
+}
+input[type="submit"]{
+    width: 107%;
+    padding: 9px;
+    font-size: 19px;
+    border-radius: 9px;
+    border: none;
+    background-color: #00004b;
+    color: #fff;
+    cursor: pointer;
+    transition: padding 0.3s,font-size 0.3s,width 0.3s;
+}
+input[type="submit"]:hover{
+    padding: 12px;
+    font-size: 22px;
+    width: 110%;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+    font-size: 18px;
+}
+::placeholder{
+    color: rgb(94, 94, 94);
+}
+::placeholder{
+    font-family: "B nazanin";
+}
